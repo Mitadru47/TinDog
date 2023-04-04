@@ -1,0 +1,224 @@
+body{
+
+    /* Montserrat - Regular 400   */
+
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Section: Title */
+
+#title{
+
+    background-color: #ff4c68;
+    
+    padding-bottom: 10%;
+    padding-top: 2%;
+}
+
+#brand{
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+
+    line-height: 1.5;
+    font-size: 3rem;
+
+    /* Montserrat - Black 900  */
+
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+
+    padding: 1.5% 10%;
+}
+
+.title-image{
+
+    margin-left: 5%;
+
+    width: 20%;
+    transform: rotate(25deg);
+
+    position: absolute;
+    z-index: 0;
+}
+
+/* Section: Features */
+
+p{
+
+    color: grey;
+}
+
+#features{
+
+    text-align: center;
+    padding: 10% 10%;
+
+    background-color: #fff;
+
+    position: relative;
+    z-index: 1;
+
+    padding-top: 10%;
+}
+
+.feature-image{
+
+    font-size: 300%;
+    color: palevioletred;
+
+    margin-bottom: 3%;
+}
+
+.feature-image:hover{
+
+    color: #ff4c68;
+}
+
+.feature-header{
+
+    font-weight: 600;
+}
+
+/* Section: Testimonials */
+
+h2{
+
+    line-height: 1.5;
+    font-size: 3rem;
+
+    /* Montserrat - Black 900  */
+
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#testimonials{
+
+    text-align: center;
+    background-color: palevioletred;
+
+    color: #fff;
+}
+
+.carousel-item{
+
+    padding: 10% 10% 5%;
+}
+
+.testimonial-image{
+
+    margin: 5%;
+    width: 15%;
+
+    border-radius: 100%;
+}
+
+#press{
+
+    padding-bottom: 2.5%;
+
+    text-align: center;
+    background-color: palevioletred;
+}
+
+.press-image{
+
+    margin: 2.5%;
+    width: 15%;
+}
+
+/* Section: Pricing */
+
+#pricing{
+
+    text-align: center;
+    padding: 10% 10% 5%;
+}
+
+.pricing-column{
+
+    padding: 5% 2%;
+}
+
+.card{
+
+    text-align: center;
+    margin: 5%;
+
+    padding-bottom: 5%;
+}
+
+/* Section: Call to Action */
+
+#cta{
+
+    background-color: #ff4c68;
+    padding: 5% 15% 12%;
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cta-message{
+
+    color: #fff;
+
+    line-height: 1.5;
+    font-size: 3.5rem;
+
+    /* Montserrat - Black 900  */
+
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+
+    margin-bottom: 5%;
+}
+
+.cta-buttons{
+
+    margin: 0 1.5%;
+}
+
+/* Section: Footer */
+
+#footer{
+
+    text-align: center;
+    padding: 8% 15% 3%;
+}
+
+.footer-icons{
+
+    margin: 2.5% 1% 2%;
+}
+
+@media (max-width: 995px){
+
+    .title-container{
+
+        text-align: center;
+    }
+
+    .title-image-container{
+
+        text-align: center;
+    }
+
+    .title-image{
+
+        margin: 15% auto;
+
+        width: 50%;
+        position: static;
+
+        transform: rotate(0);
+    }
+
+}
